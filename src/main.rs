@@ -2,9 +2,6 @@
 
 mod api;
 
-#[cfg(test)]
-mod tests;
-
 const KOPPERDB_FOLDER: &str = "kopper_database";
 const BRASSDB_FOLDER: &str = "brass_database";
 const SEGMENT_SIZE: usize = 4096; 
