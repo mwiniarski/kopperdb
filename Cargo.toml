@@ -1,5 +1,5 @@
 [package]
-name = "czkawka"
+name = "kopperdb"
 version = "0.1.0"
 edition = "2021"
 
@@ -13,6 +13,3 @@ plotters = "0.3.3"
 rand = "0.8.5"
 thiserror = "1.0.56"
 anyhow = "1.0.79"
-
-[lib]
-path = "src/lib/lib.rs"

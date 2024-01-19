@@ -421,7 +421,7 @@ impl SharedState {
 /// related to the beginning of the vector.  
 /// 
 /// ```
-/// use czkawka::kopper::KeyValueIterator;
+/// use kopperdb::kopper::KeyValueIterator;
 ///
 /// let buffer: &[u8] = b"AB\0CD\0EF\0GH\0";
 /// 

@@ -5,9 +5,10 @@ use rocket::serde::json::Json;
 use rocket::fs::NamedFile;
 use serde::Serialize;
 
-use czkawka::kopper::*;
-use czkawka::brass::*;
-use czkawka::stats::{Stats, self, Stat};
+use kopperdb::kopper::*;
+use kopperdb::brass::*;
+
+use crate::stats::{Stats, self, Stat};
 
 #[derive(Serialize)]
 pub struct ReadResponse {

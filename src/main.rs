@@ -1,5 +1,6 @@
 #[macro_use] extern crate rocket;
 
+mod stats;
 mod api;
 
 const KOPPERDB_FOLDER: &str = "kopper_database";
