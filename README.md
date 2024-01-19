@@ -1,9 +1,3 @@
-# Czkawka
-## Mimi i Dawi odrdzewieją backendową wiedzę
+# KopperDB
 
-
-### Commands:
-#### cargo run --bin <name>
-#### cargo test
-
-#### KopperDB - miedziany KVS
+Fast, persistent key-value store in pure rust
